@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarea</title>
+
+	<link rel="stylesheet" type="text/css" href="diseño2.css">
+</head>
+
+<script>
+function comosea(){
+
+	user=document.formulario.user.value
+	pass=document.formulario.pass.value
+
+	if(user=="Alonzo"&& pass=="123"){
+		alert("Datos correctos!"); 
+		window.location=href="https://google.com"
+
+	}else{
+		alert("ERROR"); 
+		window.location=href="principal2.html"
+	}
+
+}
+
+</script>
+
+<body>
+<form name="formulario">
+<h4>Ingrese su usuario: </h4>
+
+<input name="user">
+
+<h4>Ingrese la contraseña: </h4>
+
+<input type="password" name="pass">
+<br>
+<hr>
+<input type="button" value="Siguiente" onClick="comosea()">
+
+</form>
+</body>
+</html>
